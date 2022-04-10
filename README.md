@@ -17,6 +17,10 @@ Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.178
 git clone https://github.com/Ankit2527/Sensity_Project_ConditionalGAN.git
 cd Sensity_Project_ConditionalGAN/
 ```
+
+Note: 
+1. Sensity_Project_ConditionalGAN/CGAN/ contains the saved generator and discriminator model files.
+2. Sensity_Project_ConditionalGAN/template/ contains the html file for flask api
    
 ## Environment Setup
 
