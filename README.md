@@ -1,17 +1,13 @@
 
 # Flask API for Conditional GAN on FashionMNIST
 
-This repository contains the code for a Flask API which retrieves a generated image 
-corresponding to the class from a Conditional GAN trained on FashionMNIST dataset.
-
-
-
+This repository contains the code for a Flask API which retrieves a generated image corresponding to the class from a Conditional GAN trained on FashionMNIST dataset.
 
 ## Environment Setup
 
-A conda environment is provided that installs all the required packages. The environment `sensity_env.yml` installs all packages that only supports GPU.
+A conda environment is provided that installs all the required packages. The environment `sensity_env.yml`installs all packages that only supports GPU.
 
-It is recommended to use conda for installing the requirements. If you haven't installed conda yet, you can find instructions [here](https://www.anaconda.com/products/individual). 
+It is recommended to use conda for installing the requirements. If you haven't installed conda yet, you can find instructions [here (https://www.anaconda.com/products/individual). 
 The steps for installing the requirements are:
 
 1. Create a new environment
@@ -23,8 +19,6 @@ The steps for installing the requirements are:
    ```setup
    conda activate sensity.env
    ```
-
-
 
 ## Hyperparameters used for this Implementation
 
@@ -44,18 +38,16 @@ To run tests, run the following command
   python main.py --num_epochs 40
 ```
 
-To run the model for less number of epochs replace 100 by
-the number of epochs as desired. The generator and discriminator 
-models are saved after each epoch
+To run the model for less number of epochs replace 100 by the number of epochs as desired. The generator and discriminator models are saved after each epoch
 
-By default, GPU is used for training if available. Training the CGAN model takes around 13 minutes on a NVIDIA GeForce 
-GTX 2080 Ti GPU.
+By default, GPU is used for training if available. Training the CGAN model takes around 13 minutes on a NVIDIA GeForce GTX 2080 Ti GPU.
 
 **Loss Curves**
 <p align="center">
 <img src="Sensity_Project_Results/CGAN.png" title="Training Loss Curves" alt="Training Loss Curves">
 </p>
 
+From the loss curve it can be observed that the with increasing no of epochs the  generator loss decreases while the discriminaor loss increases, although the generator loss is quite high so it will be fairly easy for the discriminator to indentify the real and fake(generated) images.
 
 
 ## Real and Generated Images(after 40 epochs)
@@ -74,8 +66,7 @@ To run unnitest, run the following command
 ```
 ## Running the Flask API
 
-To run Flask API to display a generated image from CGAN,
- run the following commands in order:
+To run Flask API to display a generated image from CGAN, run the following commands in order:
 
    ```setup
    set FLASK_APP=flask_cgan.py
@@ -89,14 +80,11 @@ To run Flask API to display a generated image from CGAN,
    flask run
    ```
 
-   Upon running the last command, the Flask app will be served on
-   the following local host:
+   Upon running the last command, the Flask app will be served on the following local host:
    ```setup
    http://127.0.0.1:5000
    ```
-
-   Additional details to generate an image of a particular class 
-   is provided on the local host page.
+   Additional details to generate an image of a particular class  is provided on the local host page.
 
    Note: Press Ctrl + C in the command line to quit.
    
