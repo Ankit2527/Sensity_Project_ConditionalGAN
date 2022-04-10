@@ -10,6 +10,10 @@ Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.178
 <p align = "center">
 <img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x/y)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z/y))}]">
 </p>
+
+## Installation
+$ git clone https://github.com/eriklindernoren/PyTorch-GAN
+$ cd Sensity_Project_ConditionalGAN/
    
 ## Environment Setup
 
