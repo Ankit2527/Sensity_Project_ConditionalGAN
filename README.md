@@ -5,8 +5,12 @@ This repository contains the code for a Flask API which retrieves a generated im
 
 Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.1784)
 
-<img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z))}]">
+<p align = "center">Loss Function for Conditional GAN</p>
 
+<p align = "center">
+<img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z))}]">
+</p>
+   
 ## Environment Setup
 
 A conda environment is provided that installs all the required packages. The environment `sensity_env.yml`installs all packages that only supports GPU.
