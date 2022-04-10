@@ -12,8 +12,11 @@ Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.178
 </p>
 
 ## Installation
+
+```setup
 $ git clone https://github.com/Ankit2527/Sensity_Project_ConditionalGAN.git
 $ cd Sensity_Project_ConditionalGAN/
+```
    
 ## Environment Setup
 
