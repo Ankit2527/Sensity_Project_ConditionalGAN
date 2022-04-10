@@ -3,11 +3,14 @@
 
 This repository contains the code for a Flask API which retrieves a generated image corresponding to the class from a Conditional GAN trained on FashionMNIST dataset.
 
+Paper:[here]https://arxiv.org/abs/1411.1784
+
 ## Environment Setup
 
 A conda environment is provided that installs all the required packages. The environment `sensity_env.yml`installs all packages that only supports GPU.
 
-It is recommended to use conda for installing the requirements. If you haven't installed conda yet, you can find instructions [here (https://www.anaconda.com/products/individual). 
+It is recommended to use conda for installing the requirements. If you haven't installed conda yet, you can find instructions [here](https://www.anaconda.com/products/individual). 
+
 The steps for installing the requirements are:
 
 1. Create a new environment
