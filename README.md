@@ -53,7 +53,7 @@ GTX 2080 Ti GPU.
 
 **Loss Curves**
 <p align="center">
-<img src="Sensity_Projet_Results/CGAN.png" title="Training Loss Curves" alt="Training Loss Curves">
+<img src="Sensity_Project_Results/CGAN.png" title="Training Loss Curves" alt="Training Loss Curves">
 </p>
 
 
@@ -61,7 +61,7 @@ GTX 2080 Ti GPU.
 ## Real and Generated Images(after 40 epochs()
 
 <p align="center">
-<img src="Sensity_Projet_Results/Real_and_Generated_Images_side_by_side.png">
+<img src="Sensity_Project_Results/Real_and_Generated_Images_side_by_side.png">
 </p>
 
 
