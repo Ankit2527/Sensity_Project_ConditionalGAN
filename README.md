@@ -19,7 +19,7 @@ cd Sensity_Project_ConditionalGAN/
 ```
 
 Note: 
-1. Sensity_Project_ConditionalGAN/CGAN/ contains the saved generator and discriminator model files.
+1. Sensity_Project_ConditionalGAN/CGAN/ contains the saved generator and discriminator model files. To train the model from scratch delete the files contained in this folder.
 2. Sensity_Project_ConditionalGAN/template/ contains the html file for flask api
    
 ## Environment Setup
