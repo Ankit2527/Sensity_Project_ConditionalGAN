@@ -47,7 +47,7 @@ By default, GPU is used for training if available. Training the CGAN model takes
 <img src="Sensity_Project_Results/CGAN.png" title="Training Loss Curves" alt="Training Loss Curves">
 </p>
 
-From the loss curve it can be observed that the with increasing no of epochs the  generator loss decreases while the discriminaor loss increases, although the generator loss is quite high so it will be fairly easy for the discriminator to indentify the real and fake(generated) images.
+From the loss curve it can be observed that the with increasing number of epochs the  generator loss decreases while the discriminaor loss increases, although the generator loss is quite high so it will be fairly easy for the discriminator to indentify the real and fake (generated) images.
 
 
 ## Real and Generated Images(after 40 epochs)
