@@ -3,7 +3,7 @@
 
 This repository contains the code for a Flask API which retrieves a generated image corresponding to the class from a Conditional GAN trained on FashionMNIST dataset.
 
-Paper:[here]https://arxiv.org/abs/1411.1784
+Paper:[here](https://arxiv.org/abs/1411.1784)
 
 ## Environment Setup
 
