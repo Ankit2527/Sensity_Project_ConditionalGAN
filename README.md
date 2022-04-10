@@ -5,7 +5,7 @@ This repository contains the code for a Flask API which retrieves a generated im
 
 Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.1784)
 
-$$SE = \frac{\sigma}{\sqrt{n}}$$
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 ## Environment Setup
 
