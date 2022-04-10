@@ -5,7 +5,7 @@ This repository contains the code for a Flask API which retrieves a generated im
 
 Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.1784)
 
-<p style="font-size:160%;" align = "center">Loss Function for Conditional GAN</p>
+<p style="font-size:200%;" align = "center">Loss Function for Conditional GAN</p>
 
 <p align = "center">
 <img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x/y)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z/y))}]">
