@@ -8,7 +8,7 @@ Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.178
 <p align = "center">Loss Function for Conditional GAN</p>
 
 <p align = "center">
-<img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z))}]">
+<img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x/y)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z/y))}]">
 </p>
    
 ## Environment Setup
