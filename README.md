@@ -5,7 +5,7 @@ This repository contains the code for a Flask API which retrieves a generated im
 
 Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.1784)
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x)}] +  \mathbb{E}_{z\sim p_{\text{z}}(z)}[1 - \log{D(G(z))}]>
 
 ## Environment Setup
 
