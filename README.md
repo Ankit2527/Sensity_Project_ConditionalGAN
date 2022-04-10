@@ -58,7 +58,7 @@ To run tests, run the following command
   python main.py --num_epochs 40
 ```
 
-To run the model for less number of epochs replace 100 by the number of epochs as desired. The generator and discriminator models are saved after each epoch
+To run the model for less number of epochs replace 40 by the number of epochs as desired. The generator and discriminator models are saved after each epoch
 
 By default, GPU is used for training if available. Training the CGAN model takes around 13 minutes on a NVIDIA GeForce GTX 2080 Ti GPU.
 
@@ -70,16 +70,16 @@ By default, GPU is used for training if available. Training the CGAN model takes
 From the loss curve it can be observed that the with increasing number of epochs the  generator loss decreases while the discriminaor loss increases, although the generator loss is quite high so it will be fairly easy for the discriminator to indentify the real and fake (generated) images.
 
 
-## Real and Generated Images(after 40 epochs)
+## Real and Generated Images (after 40 epochs)
 
 <p align="center">
 <img src="Sensity_Project_Results/Real_and_Generated_Images_side_by_side.png">
 </p>
 
 
-## Running Unnittest
+## Running Unittest
 
-To run unnitest, run the following command
+To run unittest for the discriminator, run the following command
 
 ```bash
   python unnitests.py 
