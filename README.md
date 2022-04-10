@@ -3,7 +3,9 @@
 
 This repository contains the code for a Flask API which retrieves a generated image corresponding to the class from a Conditional GAN trained on FashionMNIST dataset.
 
-Paper:[here](https://arxiv.org/abs/1411.1784)
+Conditional GAN research paper can be find [here](https://arxiv.org/abs/1411.1784)
+
+$$SE = \frac{\sigma}{\sqrt{n}}$$
 
 ## Environment Setup
 
