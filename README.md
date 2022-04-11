@@ -37,7 +37,7 @@ The steps for installing the requirements are:
    
 2. Activate the environment
    ```setup
-   conda activate sensity.env
+   conda activate sensity_env
    ```
 
 ## Hyperparameters used for this Implementation
